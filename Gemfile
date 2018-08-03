@@ -4,6 +4,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.4.4'
 gem 'bootstrap-sass'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary'
+
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'simple_form'
 gem 'autoprefixer-rails'
